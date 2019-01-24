@@ -3,7 +3,7 @@
     {
       "name": "ricaun",
       "maintainer": "ricaun",
-      "websiteURL": "https://github.com/ricaun/packege_boards",
+      "websiteURL": "https://github.com/ricaun/packege_ricaun",
       "email": "",
       "help": {
         "online": ""
@@ -14,7 +14,7 @@
           "architecture": "avr",
           "version": "1.0.0",
           "category": "Contributed",
-          "url": "https://github.com/ricaun/packege_boards/archive/v1.0.0.tar.gz",
+          "url": "https://github.com/ricaun/packege_ricaun/archive/v1.0.0.tar.gz",
           "archiveFileName": "v1.0.0.tar.gz",
           "boards": [
             {
