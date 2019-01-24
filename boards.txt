@@ -1,0 +1,59 @@
+##############################################################
+#                Optiboot 8Mhz 250000 BOD 1.8V               #
+# bootloader of this board is just UNO running up 250000KBps #
+##############################################################
+Optiboot8250.name=Optiboot 328p 8MHz 250KBPS 
+
+Optiboot8250.build.f_cpu=8000000L
+Optiboot8250.upload.speed=250000
+Optiboot8250.bootloader.file=optiboot_flash_atmega328p_250000_8000000L.hex
+
+Optiboot8250.upload.tool=arduino:avrdude
+Optiboot8250.upload.protocol=arduino
+Optiboot8250.upload.maximum_size=32256
+Optiboot8250.upload.maximum_data_size=2048
+
+Optiboot8250.bootloader.low_fuses=0xff
+Optiboot8250.bootloader.high_fuses=0xde
+Optiboot8250.bootloader.extended_fuses=0x06
+Optiboot8250.bootloader.path=optiboot
+Optiboot8250.bootloader.unlock_bits=0x3F
+Optiboot8250.bootloader.lock_bits=0xCF
+Optiboot8250.bootloader.tool=arduino:avrdude
+
+Optiboot8250.build.mcu=atmega328p
+Optiboot8250.build.board=AVR_PRO
+Optiboot8250.build.core=arduino:arduino
+Optiboot8250.build.variant=arduino:standard
+
+
+##############################################################
+#                Optiboot 8Mhz 250000 BOD 1.8V               #
+# bootloader of this board is just UNO running up 250000KBps #
+##############################################################
+Optiboot8250b.name=Optiboot 328pb 8MHz 250KBPS 
+
+Optiboot8250b.build.f_cpu=8000000L
+Optiboot8250b.upload.speed=250000
+Optiboot8250b.bootloader.file=optiboot_flash_atmega328p_250000_8000000L.hex
+
+Optiboot8250b.upload.tool=arduino:avrdude
+Optiboot8250b.upload.protocol=arduino
+Optiboot8250b.upload.maximum_size=32256
+Optiboot8250b.upload.maximum_data_size=2048
+
+Optiboot8250b.bootloader.low_fuses=0xff
+Optiboot8250b.bootloader.high_fuses=0xde
+Optiboot8250b.bootloader.extended_fuses=0x06
+Optiboot8250b.bootloader.path=optiboot
+Optiboot8250b.bootloader.unlock_bits=0x3F
+Optiboot8250b.bootloader.lock_bits=0xCF
+Optiboot8250b.bootloader.tool=arduino:avrdude
+
+Optiboot8250b.build.mcu=atmega328pb
+Optiboot8250b.build.board=AVR_PRO
+Optiboot8250b.build.core=arduino:arduino
+Optiboot8250b.build.variant=arduino:standard
+
+
+

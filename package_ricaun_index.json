@@ -1,0 +1,33 @@
+{
+  "packages": [
+    {
+      "name": "ricaun",
+      "maintainer": "ricaun",
+      "websiteURL": "https://github.com/ricaun/packege_boards",
+      "email": "",
+      "help": {
+        "online": ""
+      },
+      "platforms": [
+        {
+          "name": "ricaun",
+          "architecture": "avr",
+          "version": "1.0.0",
+          "category": "Contributed",
+          "url": "https://github.com/ricaun/packege_boards/archive/v1.0.0.tar.gz",
+          "archiveFileName": "v1.0.0.tar.gz",
+          "boards": [
+            {
+              "name": "Optiboot 328p 8MHz 250KBPS"
+            },
+            {
+              "name": "Optiboot 328pb 8MHz 250KBPS"
+            }
+          ],
+          "toolsDependencies": []
+        }
+      ],
+      "tools": []
+    }
+  ]
+}
