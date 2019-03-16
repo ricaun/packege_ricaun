@@ -2,6 +2,34 @@
 #                Optiboot 8Mhz 250000 BOD 1.8V               #
 # bootloader of this board is just UNO running up 250000KBps #
 ##############################################################
+loranow_v1.name=LoRaNow Board V1 
+
+loranow_v1.build.f_cpu=8000000L
+loranow_v1.upload.speed=250000
+loranow_v1.bootloader.file=optiboot_flash_atmega328p_250000_8000000L.hex
+
+loranow_v1.upload.tool=arduino:avrdude
+loranow_v1.upload.protocol=arduino
+loranow_v1.upload.maximum_size=32256
+loranow_v1.upload.maximum_data_size=2048
+
+loranow_v1.bootloader.low_fuses=0xff
+loranow_v1.bootloader.high_fuses=0xde
+loranow_v1.bootloader.extended_fuses=0x06
+loranow_v1.bootloader.path=optiboot
+loranow_v1.bootloader.unlock_bits=0x3F
+loranow_v1.bootloader.lock_bits=0xCF
+loranow_v1.bootloader.tool=arduino:avrdude
+
+loranow_v1.build.mcu=atmega328p
+loranow_v1.build.board=AVR_LORANOW
+loranow_v1.build.core=arduino:arduino
+loranow_v1.build.variant=arduino:standard
+
+##############################################################
+#                Optiboot 8Mhz 250000 BOD 1.8V               #
+# bootloader of this board is just UNO running up 250000KBps #
+##############################################################
 Optiboot8250.name=Optiboot 328p 8MHz 250KBPS 
 
 Optiboot8250.build.f_cpu=8000000L

@@ -12,6 +12,26 @@
         {
           "name": "ricaun",
           "architecture": "avr",
+          "version": "1.0.2",
+          "category": "Contributed",
+          "url": "https://github.com/ricaun/packege_ricaun/archive/v1.0.2.tar.gz",
+          "archiveFileName": "v1.0.2.tar.gz",
+          "boards": [
+            {
+              "name": "LoRaNow Board V1"
+            },
+            {
+              "name": "Optiboot 328p 8MHz 250KBPS"
+            },
+            {
+              "name": "Optiboot 328pb 8MHz 250KBPS"
+            }
+          ],
+          "toolsDependencies": []
+        },
+        {
+          "name": "ricaun",
+          "architecture": "avr",
           "version": "1.0.1",
           "category": "Contributed",
           "url": "https://github.com/ricaun/packege_ricaun/archive/v1.0.1.tar.gz",
