@@ -59,11 +59,11 @@ Optiboot8250.build.variant=arduino:standard
 #                Optiboot 8Mhz 250000 BOD 1.8V               #
 # bootloader of this board is just UNO running up 250000KBps #
 ##############################################################
-Optiboot8250b.name=Optiboot 328pb 8MHz 250KBPS 
+Optiboot8250b.name=Optiboot 328pb 8MHz 250KBPS
 
 Optiboot8250b.build.f_cpu=8000000L
 Optiboot8250b.upload.speed=250000
-Optiboot8250b.bootloader.file=optiboot_flash_atmega328p_250000_8000000L.hex
+Optiboot8250b.bootloader.file=optiboot_flash_atmega328pb_250000_8000000L.hex
 
 Optiboot8250b.upload.tool=arduino:avrdude
 Optiboot8250b.upload.protocol=arduino
@@ -83,5 +83,30 @@ Optiboot8250b.build.board=AVR_PRO
 Optiboot8250b.build.core=arduino:arduino
 Optiboot8250b.build.variant=arduino:standard
 
+##############################################################
+#                Optiboot 8Mhz 250000 BOD 1.8V               #
+# bootloader of this board is just  250000KBps #
+##############################################################
+Optiboot8250pb.name=328pb as 328p 8MHz 250KBPS
 
+Optiboot8250pb.build.f_cpu=8000000L
+Optiboot8250pb.upload.speed=250000
+Optiboot8250pb.bootloader.file=optiboot_flash_atmega328p_250000_8000000L.hex
 
+Optiboot8250pb.upload.tool=arduino:avrdude
+Optiboot8250pb.upload.protocol=arduino
+Optiboot8250pb.upload.maximum_size=32256
+Optiboot8250pb.upload.maximum_data_size=2048
+
+Optiboot8250pb.bootloader.low_fuses=0xff
+Optiboot8250pb.bootloader.high_fuses=0xde
+Optiboot8250pb.bootloader.extended_fuses=0x06
+Optiboot8250pb.bootloader.path=optiboot
+Optiboot8250pb.bootloader.unlock_bits=0x3F
+Optiboot8250pb.bootloader.lock_bits=0xCF
+Optiboot8250pb.bootloader.tool=arduino:avrdude
+
+Optiboot8250pb.build.mcu=atmega328pb
+Optiboot8250pb.build.board=AVR_PRO
+Optiboot8250pb.build.core=arduino:arduino
+Optiboot8250pb.build.variant=arduino:standard
